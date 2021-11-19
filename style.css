@@ -1,0 +1,141 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+/* .container{ 
+
+    background-color:;
+}*/
+
+.tm-col-right a{
+    font-size:18px;
+    line-height: 1.8;
+    font-weight: bold;
+    margin-right: 60px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    border: 0px solid gray;
+    padding: 12px;
+    margin-right: 8px;
+    -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease;
+}
+.tm-col-right a:hover{
+    background-color: lightgray;
+    color:white;
+    border-color: gray;
+}
+
+
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+}
+
+/* container */
+span{
+    display: inline_block;
+    text-decoration: none;
+    color:inherit;
+}
+.section-head{
+    margin-bottom:5px;
+    margin-left: 40px;
+}
+.section-head h4{
+    position: relative;
+    padding: 0;
+    color:green;
+    line-height:1;
+    letter-spacing: 0.3px;
+    font-size: 34px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: none;
+    margin-bottom:4px;
+}
+ .section-head h4::before{ 
+    content:'';
+    width:60px;
+    height: 3px;
+    background:green;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right:0;
+    margin: 0 auto;
+} 
+.row p{
+    font-size: 22px;
+    padding-top: 5px;
+    margin-top:5px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: justify;
+}
+.section-head h4 span{
+    font-weight:100;
+    padding-bottom:2px;
+    color: #2f2f2f;
+    
+}
+.section-head p{
+    color:#818181;
+    font-size: 16px;
+    line-height:28px;
+    text-align:justify;
+    margin-left: 0px;
+    
+}
+.item{
+    background: #fff;
+    text-align: center;
+    /* padding: 30px 25px; */
+    box-shadow: 0px 0 25px rgba(0,0,0,0.07);
+    border-radius:20 px;
+    margin-bottom: 30px;
+    /* border: 0px solid rgba(0,0,0,0.7); */
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;   
+    }
+
+.item :hover{
+    background: #818181;
+    box-shadow: 0 8px 20px o rgba(0,0,0,0.2);
+     -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    
+}
+
+.item a{
+    text-decoration: none;
+    color: green;
+    font-weight:bold;
+  }
+.item :hover a{
+    background: #818181;
+    box-shadow: 0 30px 20px o rgba(0,0,0,0.2);
+     -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+/*hr {
+    margin: 1rem 0;
+    color: inherit;
+    background-color: currentColor;
+    border: 0;
+    opacity: .25;
+    
+}*/
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 1.8;
+    font-weight: bold;  
+  }
+  
+
+
